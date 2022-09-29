@@ -1,4 +1,4 @@
-# JS-counter-class
+# JS-promises-job
 
 ## Submission Instructions [Please note]
 
@@ -10,11 +10,10 @@
 ```
  ✅ able to submit the app - 1 mark ( minimum score )
  ✅ should have zero initial value - 1 mark
- ✅ onCalling get value should return zero initially- 2 mark
- ✅ On calling addValue with value x getValue should return previous_value + x - 2 marks
- ✅ On calling reduceValue with value x getValue should return previous_value - x - 2 marks
- ✅ On calling resetValue the counter value will be reset to 0 - 2 marks
-
+ ✅ able to return 1st promise value - 3 marks
+ ✅ able to resolve 2nd promise after 2 seconds - 3 marks
+ ✅ able to resolve 3rd promise after 4 seconds - 3 marks
+ 
 ```
 
 ## Installation
@@ -28,16 +27,17 @@
 
 ## Description
 
-- You need to write follwoing methods for the given **Counter** class
+- The function job must return a promise object
+- The promise must resolve itself
+- Expected output: Hello I am from Masai school
 
-- the counter initial value should be 0
+
 
   ### Methods
 
-  1. **getValue** will return the current value of counter.
-  2. **addValue** will take x as parameter and add it to the current value.
-  3. **reduceValue** will take x as parameter and subtract it to the current value.
-  4. **resetValue** will reset the counter to zero
+  1. use Promise object to create a promise with resolve and reject as the parameters.
+  2. setTimeout() - To set a time interval.
+  
 
   **Note:- Do not use any other names for the methods other than mentioned.**
 
@@ -45,8 +45,8 @@
 
 ## Boilerplate
 
-- Do not chnage the given folder structure
-- inside src you will counter.js file that is where you need to write the mentioned methods
+- Do not change the given folder structure
+- inside src you will job.js file that is where you need to write the code
 - you can find the testcase under ```__tests__ ``` folder
 
 #### General guidelines
