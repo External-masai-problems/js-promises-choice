@@ -7,15 +7,7 @@
 function job() {
   
   //write your code below
-  return new Promise((resolve, reject) => {
-    resolve("Hello");
-    setTimeout(function () {
-      resolve("I am from");
-    }, 2000);
-    setTimeout(function () {
-      resolve("Masai school");
-    }, 4000);
-  });
+  
 
   // Do not change this
 }
